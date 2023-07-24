@@ -1,0 +1,82 @@
+[
+    { 
+        "id":"01", 
+        "name":  "오라이 운송플랫폼 모바일앱 신규개발", 
+        "thumbImg": "1f4d96974b3f3b480e60ca12c5576021/ori_m_thumb.png",
+        "contentImg": "33a94c9a238fe172335e47b72fcbda9c/ori_m_work.png",
+        "skills":["React Native","Typescript","styled-component"],
+        "notionId": "a77ea108c7d8422ba6118edce66c0b52"
+    },
+    { 
+        "id":"02", 
+        "name": "오라이 운송플랫폼 웹 리뉴얼", 
+        "thumbImg": "1f4d96974b3f3b480e60ca12c5576021/ori_m_thumb.png",
+        "contentImg": "2febf923c037dc5f8c68389ba2a77140/ori_w_work.png",
+        "skills":["Angular","CSS","Typescript"],
+        "notionId": "676165eedd254e09abe924a1decef5df"
+    },
+    { 
+        "id":"03", 
+        "name": "오라이 운송플랫폼 소개페이지", 
+        "thumbImg": "53deb31d4732b4fc2d7b6cc9d97c8231/ori_thumb.png",
+        "contentImg": "edf0ac19ef704d4e61691dc2061c3514/ori_l.png",
+        "skills":["HTML","SCSS", "Javascript"],
+        "notionId": "333bfc0194ab4a6699e47057e402b05d"
+    },
+    { 
+        "id":"04", 
+        "name": "행복나래 물류관리시스템 웹신규 개발", 
+        "thumbImg": "c832e61a840baa5fb621b8ed11977bb5/havis_thumb.png",
+        "contentImg": "5a2ffa16f4e418317bedb23187ffaf11/havis.png",
+        "skills":["HTML","JSP", "SCSS", "Javascript", "Jqeury"],
+        "notionId": "a9e0640933884b018a5601bb7b7d2ad9"
+    },
+    { 
+        "id":"05", 
+        "name": "한양도성 타임머신 아카이브 웹 리뉴얼", 
+        "thumbImg": "b21fadde6354d53aaf5a2a567d73c041/hanyang_thumb.png",
+        "contentImg": "9e0db2b3914ab5b01f4ce8ad511499c0/hanyang.png",
+        "skills":["HTML", "CSS","Javascript","Jquery", "vis.js"],
+        "notionId": "469681a7027f4553b0d50e1f52d46f92"
+    },
+    { 
+        "id":"06", 
+        "name": "맨즈랄라 쇼핑몰 신규 개발", 
+        "thumbImg": "5dbeaab8c3e94165afe30d8f4c79efb7/manz_thumb.png",
+        "contentImg": "b3bcf0c52de9f472217600ddcb432b70/manz_work.png",
+        "skills":["HTML","CSS","Javascript","Jquery"],
+        "notionId": "f4680034aa694425a9bf4ebf291de23d"
+    },
+    { 
+        "id":"07", 
+        "name": "리치데이터 학습데이터 구축 플랫폼 신규 개발", 
+        "thumbImg": "f634fd8e1560a1bd303d7f16e90961f1/rich_thumb.png",
+        "contentImg": "695f8242a842b8fa026927a2d4fc8b05/rich_work.png",
+        "skills":["HTML","CSS",  "Gulp"," Javascript", "Jquery"],
+        "notionId": "RichData-d831ae71a2aa464e9225b3157bbe3631"
+    },
+    { 
+        "id":"08", 
+        "name": "국립중앙도서관 국가서지 LOD 리뉴얼", 
+        "thumbImg": "496609c8e306a6e595d8b75cc02d1c14/nl_thumb.png",
+        "contentImg": "bc2752826331dc495733200162620ce9/lodi_work.png",
+        "skills":[ "HTML", "CSS","Javascript","Jquery"],
+        "notionId": "LOD-fa02e366ce6f4af793c8a1d8d0d72205"
+    },
+    { 
+        "id":"09", 
+        "name": "LiST 홈페이지 신규 개발", 
+        "thumbImg": "1c275b15ffd89458624ce29bf40b8d37/list_thumb.png",
+        "contentImg": "5452596a3d5a764f6aca428e7d0458c9/list_work.png",
+        "skills":["HTML","SCSS"," Gulp", " Javascript","Jquery"],
+        "notionId": "LiST-5a4e573d294e49148672874c89d2ff00"
+    },
+    { 
+        "id":"10", 
+        "name": "선거정보 LOD 서비스 신규 개발", 
+        "thumbImg": "9eccb562d0373067206b845353373006/nec_thumb.png",
+        "contentImg": "5dddbb5b59bee00f2c751162198bb271/nec_work.png",
+        "skills":[ " JSP", "CSS","Gulp", " Javascript","Jquery","vis.js"],
+        "notionId": "LOD-c82ef14a5d1c4190ae3d44b6144363a1"
+    }
+]
