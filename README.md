@@ -1,4 +1,10 @@
 # workfolio
-작업물 portfolio
- 반응형 추가예정
+project history portfolio
+
+https://siennapp.github.io/workfolio
+
+- React w Typescirpt
+- react-notion
+- framer-motion -> css animation으로 수정
  
+
