@@ -7,7 +7,6 @@ const ScaleAni = keyframes`
     100%{
         max-width: 40vw; 
     }
-
 `
 const ScaleHorizontalAni = keyframes`
     0%{
@@ -21,7 +20,7 @@ const ScaleHorizontalAni = keyframes`
     }
 `
 const TitleBox = styled.div`
-    width: 38vw;
+    width: 40vw;
     max-width: 0px;
     margin-top: 5vh;
     transform-origin: left top;
@@ -32,7 +31,7 @@ const TitleBox = styled.div`
     padding-left: 1vw;
     justify-content: flex-start;
     overflow: hidden;
-    animation: ${ScaleAni} 350ms cubic-bezier(0.550, 0.085, 0.680, 0.530) forwards;
+    animation: ${ScaleAni} 500ms cubic-bezier(0.550, 0.085, 0.680, 0.530) forwards;
     animation-delay: 1.8s;
     @media (max-width: 992px) {
         width: 100%; 
@@ -48,7 +47,8 @@ const TitleBox = styled.div`
         
     }
     @media (max-width: 600px) {
-        height: 100px; 
+        height: 200px; 
+        max-height: 2100px;
         flex-direction: row;
         /* padding-left: 0; */
       
@@ -58,7 +58,8 @@ const TitleBox = styled.div`
         z-index: 100;
     }
     @media (max-width: 480px) {
-        max-height: 300px;
+        
+        animation: none;
     }
 `
 const ListTitle = styled.div`
@@ -70,12 +71,11 @@ const ListTitle = styled.div`
     overflow: hidden;
     position: absolute; 
     top: 3.2vh; 
+    padding-right: 5px;
     
     &:nth-child(2){
         top:calc( 3.2vh + 6vw );
-        @media (max-width: 992px){
-            padding-right: 20px; 
-        }
+       
     }
     &:nth-child(3){
         top: calc( 3.2vh + 13vw );
@@ -106,7 +106,8 @@ const TextUp = keyframes`
 ` 
 const T = styled.span`
     font-size: 6.2vw;
-    font-weight: 800;
+    /* font-style: italic; */
+    font-weight: 800 !important;
     letter-spacing: -0.04em;
     font-family: 'Montserrat', sans-serif;
     transform: translateY(100%);
@@ -114,19 +115,19 @@ const T = styled.span`
     animation: ${TextUp} .24s ease-out ;
     animation-fill-mode: forwards;
     &:nth-child(1){
-        animation-delay: 1.4s;
+        animation-delay: .4s;
     }
     &:nth-child(2){
-        animation-delay: 1.45s;
+        animation-delay: .45s;
     }
     &:nth-child(3){
-        animation-delay: 1.5s;
+        animation-delay: .5s;
     }
     &:nth-child(4){
-        animation-delay: 1.55s;
+        animation-delay: .55s;
     }
     &:nth-child(5){
-        animation-delay: 1.6s;
+        animation-delay: .6s;
     }
     @media (max-width: 992px) {
         font-size: 7.4vw;
@@ -139,31 +140,31 @@ const T2 = styled(T)`
     position: relative; 
     left: 0; 
     &:nth-child(1){
-        animation-delay: 1.7s;
+        animation-delay: .7s;
     }
     &:nth-child(2){
-        animation-delay: 1.75s;
+        animation-delay: .75s;
     }
     &:nth-child(3){
-        animation-delay: 1.8s;
+        animation-delay: .8s;
     }
     &:nth-child(4){
-        animation-delay: 1.85s;
+        animation-delay: .85s;
     }
     &:nth-child(5){
-        animation-delay: 1.9s;
+        animation-delay: .9s;
     }
     &:nth-child(6){
-        animation-delay: 1.95s;
+        animation-delay: .95s;
     }
     &:nth-child(7){
-        animation-delay: 2s;
+        animation-delay: 1s;
     }
     &:nth-child(8){
-        animation-delay: 2.05s;
+        animation-delay: 1.05s;
     }
     &:nth-child(9){
-        animation-delay: 2.1s;
+        animation-delay: 1.1s;
     }
 `
 const S = styled(T)`
@@ -172,31 +173,31 @@ const S = styled(T)`
     animation: ${TextUp} .22s ease-in ;
     animation-fill-mode: forwards;
     &:nth-child(1){
-        animation-delay: 2.2s;
+        animation-delay: 1.2s;
     }
     &:nth-child(2){
-        animation-delay: 2.25s;
+        animation-delay: 1.25s;
     }
     &:nth-child(3){
-        animation-delay: 2.3s;
+        animation-delay: 1.3s;
     }
     &:nth-child(4){
-        animation-delay: 2.35s;
+        animation-delay: 1.35s;
     }
     &:nth-child(5){
-        animation-delay: 2.4s;
+        animation-delay: 1.4s;
     }
     &:nth-child(6){
-        animation-delay: 2.45s;
+        animation-delay: 1.45s;
     }
     &:nth-child(7){
-        animation-delay: 2.5s;
+        animation-delay: 1.5s;
     }
     &:nth-child(8){
-        animation-delay: 2.55s;
+        animation-delay: 1.55s;
     }
     &:nth-child(9){
-        animation-delay: 2.6s;
+        animation-delay: 1.6s;
     }
 `
 

@@ -4,8 +4,11 @@ import ItemList from './components/ItemList';
 import MainBg from './components/MainBg';
 
 const Wrap = styled.div`
-  width: 100vw; 
-  height: 100vh; 
+  top: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
   overflow-x: hidden;
   overflow-y: auto;
 

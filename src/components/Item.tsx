@@ -1,4 +1,5 @@
-import styled, { keyframes } from "styled-components"
+import styled, { keyframes } from "styled-components";
+
 interface ItemProps {
     id: string;
     name: string;
@@ -262,7 +263,7 @@ const Badge = styled.div`
     color: #ffffff; 
     font-family: 'Montserrat', sans-serif;
     font-size: .813em; 
-    font-weight: 700;
+    font-weight: 600;
     @media (max-width: 600px){
         display: inline-block;
     }
@@ -279,12 +280,11 @@ function Item ( {
     return(
         <ItemWrap
             bg={thumbImg}
-            // variants={variants2}
             onClick={modalOpen}
         >
             <BoxStart className="box-start"  bg={thumbImg}/>
             <ThumbnailWrap className="fadeIn" >
-                <Thumbnail bg={thumbImg} />
+                <Thumbnail bg={thumbImg}/>
                 <Skills>
                         {skills.map((skill,index) => <Badge key={index}>{skill}</Badge>)}
                  </Skills>

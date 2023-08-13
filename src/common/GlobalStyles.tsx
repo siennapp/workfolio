@@ -53,21 +53,21 @@ const GlobalStyles = createGlobalStyle`
         border-collapse: collapse;
         border-spacing: 0;
     }
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;800&family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,800&display=swap');
   
-  @font-face {
+  /* @font-face {
     font-family: 'Pretendard';
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
-  }
+  } */
 
   * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     //font-family: 'Montserrat', sans-serif;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   }
   .content{
     overflow-y: auto;
@@ -76,7 +76,7 @@ const GlobalStyles = createGlobalStyle`
     width: 100%; height: 100%;
     left: 0; top: 0; 
     border-radius: 0 20px 20px 0;
-    padding: 20px 0;
+    padding: 10px 0px 20px 0;
     &::-webkit-scrollbar {
         width: 14px;
     }
@@ -94,15 +94,16 @@ const GlobalStyles = createGlobalStyle`
     }
     .notion-text{
         position: relative;
-        padding-left: 80px;
+        padding-left: 90px;
 
     }
     .notion-text b{
-        width: 85px;
-        display: inline-block;
+        width: 100px;
+        display: flex;
         color:rgb(61, 208, 101);
         position: absolute;
         left: 0;
+        
     }
     .notion-h1{
         margin-bottom: 1rem;
@@ -110,8 +111,11 @@ const GlobalStyles = createGlobalStyle`
     }
     .notion-list{
         &:first-of-type{
-            margin-top: 18px;
+            margin-top: 22px;
         }
+    }
+    .notion-asset-wrapper{
+        margin-top: 22px;
     }
     .notion-blank{
         display: none;
